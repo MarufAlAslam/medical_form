@@ -1,0 +1,107 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* body{
+    height: 100vh !important;
+    overflow-y: hidden;
+} */
+button:focus{
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+.formScreen{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.aclonica{
+    font-family: 'Aclonica', sans-serif;
+}
+p {
+	font-size: 20px;
+	line-height: 1;
+}
+tr {
+	height: 60px;
+}
+td{
+    border: unset !important;
+}
+.col-md-4{
+    background-color: #F9F9F9;
+}
+.col-md-4 .container {
+	max-width: 80%;
+}
+.col-md-4{
+	height: 100vh;
+    overflow: hidden;
+}
+.col-md-8 .container {
+	max-width: 85%;
+}
+.col-md-8{
+    height: 100vh;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+    padding: 3rem 0 !important;
+}
+.gettingStarted p{
+    line-height: 2;
+}
+.btn-purple{
+    background-color: #1F385E;
+    color: white !important;
+    font-size: 20px;
+}
+
+.PatientDetails,  .petDetails, .Feeling, .behavior, .symptoms, .extra{
+    padding-bottom: 3rem !important;
+    display: none;
+}
+.behaviorr, .symptomss{
+    display: none;
+}
+
+.progress-bar {
+	background-color: #000759;
+}
+.progress {
+	height: 5px;
+}
+.w-13{
+    width:13%;
+}
+.w-30{
+    width:30%;
+}
+.w-46{
+    width:46%;
+}
+.w-60{
+    width:60%;
+}
+.w-78{
+    width:78%;
+}
+.w-90{
+    width:90%;
+}
+.w-100{
+    width:100%;
+}
+.prgrss{
+    display: none;
+}
+.ppText{
+    font-size: 14px;
+    display: none;
+}
+@media screen and (max-width:768px){
+    .prgrss{
+        display: block;
+    }
+    .col-md-4{
+        display: none;
+    }
+}
